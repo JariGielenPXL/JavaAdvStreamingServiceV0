@@ -2,14 +2,14 @@ package be.pxl.ja.streamingservice.model;
 
 import java.time.LocalDate;
 
-public class Movie extends be.pxl.ja.opdracht1.Content implements be.pxl.ja.opdracht1.Playable {
+public class Movie extends Content implements Playable {
     private String director;
     private LocalDate releaseDate;
     private int duration;
     private Genre genre;
     public static final int LONG_PLAYING_TIME = 15;
 
-    public Movie(String title, be.pxl.ja.opdracht1.Rating rating){
+    public Movie(String title, Rating rating){
         super(title,rating);
     }
 

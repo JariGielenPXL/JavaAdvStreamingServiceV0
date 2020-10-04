@@ -11,4 +11,8 @@ public enum Rating {
     Rating(int leeftijd) {
         this.leeftijd = leeftijd;
     }
+
+    public int getLeeftijd() {
+        return leeftijd;
+    }
 }

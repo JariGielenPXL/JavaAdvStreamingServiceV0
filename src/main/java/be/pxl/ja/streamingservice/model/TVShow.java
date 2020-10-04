@@ -1,9 +1,9 @@
 package be.pxl.ja.streamingservice.model;
 
-public class TVShow extends be.pxl.ja.opdracht1.Content {
+public class TVShow extends Content {
     private int numberOfSeasons;
 
-    public TVShow(String title, be.pxl.ja.opdracht1.Rating rating, int seasons) {
+    public TVShow(String title, Rating rating, int seasons) {
         super(title, rating);
         this.numberOfSeasons = seasons;
     }

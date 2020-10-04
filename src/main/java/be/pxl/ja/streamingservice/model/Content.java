@@ -2,10 +2,10 @@ package be.pxl.ja.streamingservice.model;
 
 public abstract class Content {
     private String title;
-    private be.pxl.ja.opdracht1.Rating maturityRating;
+    private Rating maturityRating;
     private String imageUrl;
 
-    public Content(String title, be.pxl.ja.opdracht1.Rating rating){
+    public Content(String title, Rating rating){
         this.title = title;
         this.maturityRating = rating;
     }
@@ -18,7 +18,7 @@ public abstract class Content {
         return title;
     }
 
-    public be.pxl.ja.opdracht1.Rating getMaturityRating() {
+    public Rating getMaturityRating() {
         return maturityRating;
     }
 
